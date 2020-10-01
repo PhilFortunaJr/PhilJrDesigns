@@ -5,7 +5,7 @@ $(document).ready(function(){
 $(function() {
   var topoffset = 70; //variable for menu height
 
-  //Use smooth scrolling when clicking on navigation
+  //Uses smooth scrolling when clicking on navigation
   $('.navbar-nav a').click(function() {
     if (location.pathname.replace(/^\//,'') ===
       this.pathname.replace(/^\//,'') &&
